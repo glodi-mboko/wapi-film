@@ -1,0 +1,28 @@
+.slider-image-home {
+  font-family: orbitron;
+  height: 80%;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+  h1 {
+    position: absolute;
+    top: 0;
+    z-index: 10000;
+    padding: 30px 0 5px 40px;
+    font-size: 65px;
+    color: white;
+    font-weight: bold;
+    > span {
+      color: #ff543e;
+    }
+  }
+  p {
+    position: absolute;
+    top: 120px;
+    padding: 0 0 40px 40px;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.774);
+  }
+}

@@ -1,0 +1,12 @@
+@import "./base/police";
+@import "./layouts/titleBar";
+@import "./layouts/nav";
+@import "./layouts/header";
+@import "./layouts/containerImage";
+@import "./layouts/button";
+@import "./layouts/page-home";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

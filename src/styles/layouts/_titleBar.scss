@@ -1,0 +1,77 @@
+.container-title-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 80px;
+  margin: 0 30px;
+  &__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100%;
+    background-color: #ff543e;
+    img {
+      width: 53px;
+      height: 49px;
+      margin-right: 10px;
+    }
+    h1 {
+      font-family: pacifico;
+      color: #470b0b;
+    }
+  }
+  &__search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    > input {
+      height: 40px;
+      width: 500px;
+      border-style: none;
+      border-radius: 100px;
+      background-color: #163a45;
+    }
+    > div {
+      position: absolute;
+      right: 102px;
+      height: 36px;
+      width: 100px;
+      text-align: center;
+      padding-top: 8px;
+      border-top-right-radius: 100px;
+      border-bottom-right-radius: 100px;
+      background-color: #0b1b20;
+      > span {
+        color: white;
+        font-family: "sansita-one";
+        font-size: 14px;
+      }
+    }
+  }
+  &__separator-bar {
+    height: 60px;
+    border-right: 1px #e5e5e538 solid;
+    margin-right: 130px;
+  }
+  &__login {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #163a4552;
+    font-family: "sansita-one";
+    color: white;
+    font-size: 14px;
+    img {
+      height: 20px;
+      width: 17px;
+      margin-right: 20px;
+    }
+  }
+}

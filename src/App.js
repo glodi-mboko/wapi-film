@@ -1,13 +1,12 @@
-import React, {useState, useEffect} from 'react';
+//import React, {useState, useEffect} from 'react';
+
+import Home from './pages/Home'
 
 
 const App = () => {
-
-  const [data, setData] = useState([])
-  fetch
   return (
     <div>
-      
+      <Home />
     </div>
   );
 }
