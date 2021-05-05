@@ -1,4 +1,5 @@
 .button {
+  /* position: absolute; */
   display: inline-block;
   font-family: nunito;
   font-weight: bold;
@@ -8,5 +9,37 @@
   padding: 20px;
   margin: 0 2px 0 0;
   width: 190px;
-  background-color: #ff543e;
+  background-color: black;
+
+  &:hover {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 76%,
+      57% 77%,
+      51% 99%,
+      46% 76%,
+      0 76%
+    );
+    height: 88px;
+    cursor: pointer;
+    background-color: #ff543e;
+  }
+}
+
+a.active {
+  .button {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 76%,
+      57% 77%,
+      51% 99%,
+      46% 76%,
+      0 76%
+    );
+    height: 86px;
+    cursor: pointer;
+    background-color: #ff543e;
+  }
 }

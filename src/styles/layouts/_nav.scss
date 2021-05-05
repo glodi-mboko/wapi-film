@@ -6,9 +6,12 @@
   height: 40px;
   font-family: nunito;
   font-size: 14px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
   > span {
     margin-right: 200px;
-    color: white;
   }
   &__categorie {
     display: flex;

@@ -16,7 +16,8 @@ const ContainerImage = () => {
         transitionDuration: 1000,
         infinite: true,
         indicators:false,
-        pauseOnHover :false
+        pauseOnHover :false,
+        arrows:false
       }
     return (
         <div className='slider-image-home'> 

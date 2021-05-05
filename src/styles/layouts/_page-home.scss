@@ -10,12 +10,15 @@
     justify-content: center;
     align-items: center;
     &__button {
+      top: 22px;
+      position: relative;
       display: flex;
       justify-content: center;
       flex-direction: row;
-      width: 600px;
+      width: 1000px;
     }
     &__view {
+      z-index: -1;
       display: flex;
       border-radius: 10px;
       padding: 35px 0 35px 0;
