@@ -1,8 +1,12 @@
 .button {
+  display: inline-block;
   font-family: nunito;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
   color: white;
   padding: 20px;
-  width: 180px;
-  background-color: #0b1b20;
-  border: 1px white solid;
+  margin: 0 2px 0 0;
+  width: 190px;
+  background-color: #ff543e;
 }
