@@ -1,4 +1,5 @@
 .card-movi {
+  display: block;
   width: 290px;
   height: 310px;
   background-color: #0b1b20;
@@ -17,16 +18,13 @@
     justify-content: center;
     flex-direction: column;
     > h3 {
+      text-transform: uppercase;
       font-size: 20px;
       margin-bottom: 10px;
     }
     span {
       margin-bottom: 10px;
-    }
-    p {
-      > span {
-        color: #ff543e;
-      }
+      color: #ff543e;
     }
   }
 }

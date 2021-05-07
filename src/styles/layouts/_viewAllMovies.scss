@@ -14,7 +14,8 @@
     &__comedi {
       width: 100%;
       display: flex;
-      flex-direction: row;
+      //flex-direction: row;
+      overflow: hidden;
       align-items: center;
       justify-content: center;
       border: 10px #ff543e0e solid;

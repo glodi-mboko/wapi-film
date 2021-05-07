@@ -1,7 +1,7 @@
 import {useState, useEffect, createContext} from 'react'
 import axios from 'axios'
 
-const url ="https://api.themoviedb.org/3/discover/movie?api_key=7c26ca67b90a8fe49a5f921b53774b4e&with_genres=28"
+const url ="https://api.themoviedb.org/3/discover/movie?api_key=7c26ca67b90a8fe49a5f921b53774b4e&with_genres=878"
 
 export const ActionMoviesContext = createContext();
 
@@ -17,7 +17,7 @@ export const ActionMoviesProvider=({children})=>{
             }
           ))
           setActionMovies(temporaryListofMovies)
-    }
+    }   
     useEffect(()=>{
         axios.get(url)
         .then(RetrievesDataAndPopulatesTheActionMovieList)

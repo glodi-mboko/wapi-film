@@ -1,7 +1,7 @@
 import React from 'react';
 import MovieAction from './MovieAction';
-import MovieComedie from './MovieComedie';
-import MovieDrame from './MovieDrame';
+import MovieComedie from './MovieFamily';
+import MovieDrame from './MovieHistory';
 import MovieSerie from './MovieSerie';
 
 const ViewAllMovies = () => {

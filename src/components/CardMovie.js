@@ -1,14 +1,13 @@
 import React from 'react';
-import venon from '../img/jpg/venon.jpg'
 
-const CardMovie = () => {
+const CardMovie = ({id, title, srcImg, note}) => {
+    const baseSourceForImage = "https://image.tmdb.org/t/p/original/"
     return (
         <div className='card-movi'>
-            <img src={venon} alt='justiceleague'/>
+            <img src={baseSourceForImage + srcImg} alt={title}/>
             <div>
-                <h3>JUSTICE LEAGUE</h3>
-                <span>NOVEMBRE 6, 2014</span>
-                <p><span>8.7</span>/10</p>
+                <h3>{title}</h3>
+                <span>{note}</span>
             </div>
         </div>
     );
