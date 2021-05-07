@@ -13,7 +13,7 @@ const ContainerImage = () => {
       
       const fadeProperties = {
         duration: 5000,
-        transitionDuration: 1000,
+        transitionDuration: 2000,
         infinite: true,
         indicators:false,
         pauseOnHover :false,

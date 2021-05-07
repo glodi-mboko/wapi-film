@@ -1,0 +1,65 @@
+.footer {
+  background-color: #071114;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  line-height: 20px;
+  font-family: nunito;
+  h6 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  p {
+    color: rgb(85, 85, 85);
+  }
+  &__information {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    //border: 1px white solid;
+    &__suivez-nous {
+      //border: 1px white solid;
+      text-align: center;
+      width: 20%;
+      img {
+        width: 53px;
+        height: 41px;
+        transform: scale(1);
+        margin: 10px;
+        border-radius: 100%;
+        transition: transform 600ms;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    &__adresse {
+      //border: 1px white solid;
+      text-align: center;
+      width: 20%;
+      p {
+        font-style: italic;
+        img {
+          width: 33px;
+          height: 21px;
+          margin: 10px;
+        }
+      }
+      //border: 1px white solid;
+    }
+    &__politique {
+      width: 35%;
+      //border: 1px white solid;
+    }
+  }
+  &__separator {
+    //width: 100%;
+
+    margin-bottom: 30px;
+    border-bottom: 1px rgb(44, 44, 44) solid;
+  }
+  &__copyright {
+    text-align: center;
+  }
+}

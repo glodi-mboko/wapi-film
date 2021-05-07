@@ -1,21 +1,16 @@
 import React from 'react';
-import CardMovie from './CardMovie';
+import MovieAction from './MovieAction';
+import MovieComedie from './MovieComedie';
+import MovieDrame from './MovieDrame';
+import MovieSerie from './MovieSerie';
 
 const ViewAllMovies = () => {
     return (
         <div className='all-movies'>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
-            <CardMovie/>
+            <MovieAction />
+            <MovieDrame />
+            <MovieSerie />
+            <MovieComedie />
         </div>
     );
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import ContainerImage from '../components/ContainerImage';
 import Button from '../components/Button'
 import ViewAllMovies from '../components/ViewAllMovies'
-
 const Home = () => {
     return (
         <div className="page-home">
@@ -20,5 +19,4 @@ const Home = () => {
         </div>
     );
 }
-
 export default Home;

@@ -7,8 +7,12 @@
 @import "./layouts/cardMovi";
 @import "./layouts/viewAllMovies";
 @import "./layouts/page-home";
+@import "./layouts/footer";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: #0b1b20;
 }
