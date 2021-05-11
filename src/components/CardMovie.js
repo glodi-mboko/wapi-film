@@ -13,4 +13,26 @@ const CardMovie = ({id, title, srcImg, note}) => {
     );
 }
 
+
 export default CardMovie;
+
+
+/* import React from 'react';
+import labirynthe from '../img/jpg/labyrinthe-1.jpg'
+import '../styles/layouts/style.css'
+const CardNews = (props) => {
+    return (
+        <div className="mycard">
+            <div className="image">
+                <img src={labirynthe} alt="..."/>
+            </div>
+            <div className="content">
+                <h2>card title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quis laboriosam in molestiae, pariatur ullam mollitia labore quae nulla facilis illo maxime ad voluptates quo rerum tempore expedita obcaecati quas.</p>
+            </div>
+        </div>
+    );
+}
+
+export default CardNews;
+ */

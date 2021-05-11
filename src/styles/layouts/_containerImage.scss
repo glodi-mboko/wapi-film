@@ -1,9 +1,10 @@
 .slider-image-home {
+  position: absolute;
   font-family: orbitron;
+  margin-top: 120px;
   height: 80%;
   width: 100%;
   z-index: -1;
-  margin-bottom: 110%;
   img {
     width: 100%;
   }

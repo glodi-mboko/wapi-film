@@ -6,8 +6,8 @@ const Nav = () => {
     return (
         <div className='nav-bar'>
             <span><Link to="/">HOME</Link></span>
-            <span><Link to="/">CONTACT</Link></span>
-            <span><Link to="/">ABOUT</Link></span>
+            <span><Link to="/contact">CONTACT</Link></span>
+            <span><Link to="/about">ABOUT</Link></span>
             <div className='nav-bar__categorie'>
                 <img src={movieLogo} alt='movielogo'/>
                 <span>CATEGORIE</span>
